@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Presidential Betting Odds</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        #vis {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div id="vis"></div>
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.1"></script>
+    
+    <script type="text/javascript">
+        // Use absolute path from public folder
+        var spec = "/current_event_chart.json";
+        
+        vegaEmbed('#vis', spec, {
+            // Add some options for better iframe display
+            actions: false,  // Hide the actions menu
+            renderer: 'svg'  // Use SVG renderer for better quality
+        }).then(function(result) {
+            console.log('Chart loaded successfully');
+        }).catch(function(error) {
+            console.error('Error loading chart:', error);
+            document.getElementById('vis').innerHTML = '<p>Error loading chart. Check console for details.</p>';
+        });
+    </script>
+</body>
+</html>

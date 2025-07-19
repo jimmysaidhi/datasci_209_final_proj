@@ -5,7 +5,7 @@ function ReactionToNews() {
     <div>
       <h2>Reaction To News</h2>
       <iframe 
-        src="" 
+        src="src/components/event_study.html" 
         width="100%" 
         height="500px"
         frameBorder="0"

@@ -14,7 +14,7 @@ function MidtermElectionTableau() {
     const options = {
       hideTabs: true,
       width: "100%",
-      height: "1600px",
+      height: "1062px",
       onFirstInteractive: () => {
         console.log("d3 Viz Loaded!");
       },

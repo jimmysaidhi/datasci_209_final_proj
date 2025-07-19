@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 
 function MidtermElectionTableau() {
-  const vizRef = useRef(null); // container for Tableau viz
+  const vizRef = useRef(null); // container for d3 viz
   const vizInstance = useRef(null); // Tableau Viz object
 
   useEffect(() => {
@@ -14,9 +14,9 @@ function MidtermElectionTableau() {
     const options = {
       hideTabs: true,
       width: "100%",
-      height: "800px",
+      height: "100%",
       onFirstInteractive: () => {
-        console.log("Tableau Viz Loaded!");
+        console.log("d3 Viz Loaded!");
       },
     };
 

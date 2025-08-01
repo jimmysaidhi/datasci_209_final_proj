@@ -3,7 +3,7 @@ import Header from './components/Header';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import MidtermElectionTableau from './components/MidtermElectionTableau';
-import KandaceMarketConfidence from './components/KandaceMarketConfidence';
+import MarketConfidence from './components/MarketConfidence';
 import ReactionToNews from './components/ReactionToNews';
 import SectionWrapper from './components/SectionWrapper';
 import BackToTopButton from './components/BackToTopButton';
@@ -24,7 +24,7 @@ function App() {
     </SectionWrapper>
 
     <SectionWrapper id="kandace">
-      <KandaceMarketConfidence />
+      <MarketConfidence />
     </SectionWrapper>
 
     <SectionWrapper id="reaction">

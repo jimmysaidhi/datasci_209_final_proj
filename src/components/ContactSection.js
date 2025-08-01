@@ -25,7 +25,7 @@ const team = [
 
 function ContactSection() {
   return (
-    <section className="bg-light py-5" id="contact">
+    <section id="contact">
       <div className="container">
         <h2 className="text-center mb-4">Our Team</h2>
         <div className="row">

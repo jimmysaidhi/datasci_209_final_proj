@@ -9,7 +9,7 @@ function MidtermElectionTableau() {
     // Only embed once
     if (vizInstance.current) return;
 
-    const vizUrl = "https://observablehq.com/embed/27b3ad7143f37ce0@652?cells=date_selector_title%2Cviewof+currDate%2Cchart%2Cchart2";
+    const vizUrl = "https://observablehq.com/embed/27b3ad7143f37ce0@660?cells=date_selector_title%2Cviewof+currDate%2Cchart%2Cchart2";
 
     const options = {
       hideTabs: true,

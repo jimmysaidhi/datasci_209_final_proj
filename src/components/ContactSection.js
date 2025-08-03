@@ -18,7 +18,7 @@ const team = [
   },
   {
     name: "Bryce Loomis",
-    linkedin: "https://www.linkedin.com/in/bryceloomis/",
+    linkedin: "https://www.linkedin.com/in/bryce-loomis-732070136/",
     image: "https://api.dicebear.com/7.x/fun-emoji/svg?seed=BryceLoomis"
   }
 ];

@@ -13,7 +13,7 @@ function MarketConfidence() {
     const options = {
       hideTabs: true,
       width: "100%",
-      height: "800px",
+      height: "900px",
       onFirstInteractive: () => {
         console.log("Kandace's Tableau Viz Loaded");
       }
@@ -34,7 +34,7 @@ function MarketConfidence() {
 
   return (
     <div className="my-5">
-      <h2 className="text-center mb-3">Market Confidence Dashboards</h2>
+      <h2 className="text-center mb-3">Market Confidence Dashboard</h2>
 
       <div className="mb-5">
         <div ref={vizRefs[0]} />

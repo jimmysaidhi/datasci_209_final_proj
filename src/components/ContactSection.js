@@ -9,17 +9,17 @@ const team = [
  {
     name: "Brian Feldman",
     linkedin: "https://www.linkedin.com/in/brian-feldman-3/",
-    image: "https://api.dicebear.com/7.x/fun-emoji/svg?seed=BrianFeldman"
+    image: "/images/brian_pic.png"
   },
   {
     name: "Kandy Webber",
     linkedin: "https://www.linkedin.com/in/kandyweber/",
-    image: "https://api.dicebear.com/7.x/fun-emoji/svg?seed=KandyWebber"
+    image: "/images/kandy_pic.png"
   },
   {
     name: "Bryce Loomis",
     linkedin: "https://www.linkedin.com/in/bryce-loomis-732070136/",
-    image: "https://api.dicebear.com/7.x/fun-emoji/svg?seed=BryceLoomis"
+    image: "/images/bryce_pic.png"
   }
 ];
 

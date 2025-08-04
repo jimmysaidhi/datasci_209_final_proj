@@ -4,7 +4,7 @@ function AboutSection() {
   return (
     <section
       id="about"
-      style={{ backgroundColor: '#1f2937', color: '#f8fafc', padding: '4rem 1.5rem' }}
+      style={{ backgroundColor: '#1f2937', color: '#f8fafc', padding: '1rem 0.5rem' }}
     >
       <div style={{ maxWidth: '960px', margin: '0 auto' }}>
         <h2 style={{ fontWeight: '600' }}>About</h2>

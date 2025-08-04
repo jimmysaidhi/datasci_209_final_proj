@@ -5,9 +5,9 @@ function Header() {
     <header style={{ backgroundColor: '#111827' }} className="text-white py-4 mb-4 shadow-sm">
       <div className="container d-flex justify-content-between align-items-center flex-wrap">
         <div>
-          <h2 style={{ margin: '6px', fontWeight: '600', fontSize: '1.5rem' }}>
+          <h1 style={{ margin: '2px', fontWeight: '800', fontSize: '1.5rem' }}>
             Visualizing Prediction Markets
-          </h2>
+          </h1>
         </div>
         <nav className="mt-3 mt-md-0">
           <a href="#intro" className="btn btn-outline-light btn-sm mx-1 custom-nav-btn">Intro</a>

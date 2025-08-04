@@ -32,10 +32,11 @@ function MidtermElectionTableau() {
 
   return (
     <div className="my-5">
-      <h2 className="text-center mb-3">Electoral Map Dashboard</h2>
+      <h1 className="text-left mb-3">Electoral Map Dashboard</h1>
       <p className="text-left">
       The visualization below shows a map of the prediction-market-implied probabilities of Donald Trump winning the 2024 US Presidential Election
-      starting in April 2024. You can change the date using the slider below or get more state-specific information by clicking any of the 50 states.
+      starting in April 2024. </p> 
+      <p className="text-left"> You can change the date using the slider below or get more state-specific information by clicking any of the 50 states.
       </p>
       <div ref={vizRef} />
     </div>

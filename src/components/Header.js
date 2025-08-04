@@ -10,7 +10,7 @@ function Header() {
           </h1>
         </div>
         <nav className="mt-3 mt-md-0">
-          <a href="#intro" className="btn btn-outline-light btn-sm mx-1 custom-nav-btn">Intro</a>
+          <a href="#intro" className="btn btn-outline-light btn-sm mx-1 custom-nav-btn">About</a>
           <a href="#midterm" className="btn btn-outline-light btn-sm mx-1 custom-nav-btn">Midterm Election</a>
           <a href="#kandace" className="btn btn-outline-light btn-sm mx-1 custom-nav-btn">Market Confidence</a>
           <a href="#reaction" className="btn btn-outline-light btn-sm mx-1 custom-nav-btn">Reaction To News</a>

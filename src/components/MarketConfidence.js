@@ -34,7 +34,7 @@ function MarketConfidence() {
 
   return (
     <div className="my-5">
-      <h2 className="text-center mb-3">Market Confidence Dashboard</h2>
+      <h1 className="text-left mb-3">Market Confidence Dashboard</h1>
 
       <div className="mb-5">
         <div ref={vizRefs[0]} />

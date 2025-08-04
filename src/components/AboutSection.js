@@ -19,7 +19,7 @@ function AboutSection() {
           than traditional media or polling.
         </p>
         <p>
-          In this dashboard, we explore how prediction market confidence changed throughout the campaign season,
+          In these series of dashboards, we explore how prediction market confidence changed throughout the campaign season,
           especially in response to key news moments.
         </p>
       </div>

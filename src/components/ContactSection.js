@@ -8,12 +8,12 @@ const team = [
   },
  {
     name: "Brian Feldman",
-    linkedin: "https://www.linkedin.com/in/brian-feldman-3/",
+    linkedin: "https://www.linkedin.com/in/bmfeldman/",
     image: "/images/brian_pic.png"
   },
   {
     name: "Kandy Webber",
-    linkedin: "https://www.linkedin.com/in/kandyweber/",
+    linkedin: "http://www.linkedin.com/in/kandacelove/",
     image: "/images/kandy_pic.png"
   },
   {

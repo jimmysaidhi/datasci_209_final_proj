@@ -19,6 +19,14 @@ function AboutSection() {
           than traditional media or polling.
         </p>
         <p>
+          We found two datasets on Kaggle that used the Polymarket API to gather comprehensive information about the 2024 Presidential Election. We cleaned these datasets so that we could use them in our website. 
+          <h3>Data Source</h3>
+          <ul>
+            <li>https://www.kaggle.com/datasets/pbizil/polymarket-2024-us-election-state-data/data</li>
+            <li>https://www.kaggle.com/datasets/jdaustralia/2024-us-presidential-election-odds</li>
+          </ul>
+        </p>
+        <p>
           In these series of dashboards, we explore how prediction market confidence changed throughout the campaign season,
           especially in response to key news moments.
         </p>

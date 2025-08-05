@@ -18,9 +18,9 @@ function AboutSection() {
           Prices on Polymarket reflect collective beliefs about the likelihood of events, often updating faster
           than traditional media or polling.
         </p>
-        <p>
-          We found two datasets on Kaggle that used the Polymarket API to gather comprehensive information about the 2024 Presidential Election. We cleaned these datasets so that we could use them in our website. 
-          <h3>Data Source</h3>
+        <h3>Data Source</h3>
+        <p>Polymarket, a popular prediction market platform, offers an API for investors to understand market changes in real time. We found two datasets on Kaggle that used the Polymarket API to gather comprehensive information about the 2024 Presidential Election. 
+           We cleaned these datasets so that we could use them in our website.
           <ul>
             <li>https://www.kaggle.com/datasets/pbizil/polymarket-2024-us-election-state-data/data</li>
             <li>https://www.kaggle.com/datasets/jdaustralia/2024-us-presidential-election-odds</li>
